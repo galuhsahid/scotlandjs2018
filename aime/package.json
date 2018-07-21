@@ -1,0 +1,25 @@
+{
+  "name": "aime",
+  "version": "1.0.1",
+  "description": "A command line dashboard to search and manage your Twitter likes.",
+  "main": "src/dashboard.js",
+  "bin": {
+    "aime": "src/dashboard.js"
+  },
+  "scripts": {
+    "prestart": "mongod --dbpath=/data/db --port 27017 --fork --logpath ~/log/mongod.log",
+    "start": "aime",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Galuh Sahid <galuh.tunggadewi@gmail.com> (http://galuh.me/)",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.7.5",
+    "chalk": "^1.1.3",
+    "commander": "^2.16.0",
+    "dotenv": "^4.0.0",
+    "mongodb": "^2.2.29",
+    "twitter": "^1.7.1"
+  }
+}

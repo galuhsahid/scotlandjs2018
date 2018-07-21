@@ -1,0 +1,21 @@
+{
+  "name": "scotlandjs-demo-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "lyricist": "^2.2.2",
+    "minimist": "^1.2.0",
+    "node-genius": "^1.1.0"
+  }
+}
